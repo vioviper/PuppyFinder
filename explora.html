@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Puppy Finder</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		<section id="panel-profile" class="panel panel-left panel-cover">
+			<div class="block">
+				<div class="list media-list">
+					<ul>
+					    <li>
+						    <a href="perfil.html" class="item-link item-content panel-close">
+							   <div class="item-media">
+								   <i class="material-icons" style="color: #7a7f4d">pets</i>
+								</div>
+								
+								<div class="item-inner">
+									<div class="item-title" >Perfil de usuario</div>
+								</div>
+							</a>
+						</li>
+						
+						<li>
+						    <a href="sobrenosotros.html" class="item-link item-content panel-close">
+							   <div class="item-media">
+								   <i class="material-icons" style="color: #7a7f4d">pets</i>
+								</div>
+								
+								<div class="item-inner">
+									<div class="item-title">Sobre Nosotros</div>
+								</div>
+							</a>
+						</li>
+						
+						
+						<li>
+						    <a href="informacion.html" class="item-link item-content panel-close">
+							   <div class="item-media">
+								   <i class="material-icons" style="color: #7a7f4d">pets</i>
+								</div>
+								
+								<div class="item-inner">
+									<div class="item-title">información Básica</div>
+								</div>
+							</a>
+						</li>
+						
+						
+						<li>
+						    <a href="detalles.html" class="item-link item-content panel-close">
+							   <div class="item-media">
+								   <i class="material-icons" style="color: #7a7f4d">pets</i>
+								</div>
+								
+								<div class="item-inner">
+									<div class="item-title">Más Detalles</div>
+								</div>
+							</a>
+						</li>
+						
+						
+						<li>
+						    <a href="guardados.html" class="item-link item-content panel-close">
+							   <div class="item-media">
+								   <i class="material-icons" style="color: #7a7f4d">pets</i>
+								</div>
+								
+								<div class="item-inner">
+									<div class="item-title">Tus Guardados</div>
+								</div>
+							</a>
+						</li>
+						
+						
+						<li>
+						    <a href="explora.html" class="item-link item-content panel-close">
+							   <div class="item-media">
+								   <i class="material-icons" style="color: #7a7f4d">pets</i>
+								</div>
+								
+								<div class="item-inner">
+									<div class="item-title">Explorá Más</div>
+								</div>
+							</a>
+						</li>
+						
+						
+						<li>
+						    <a href="preguntas.html" class="item-link item-content panel-close">
+							   <div class="item-media">
+								   <i class="material-icons" style="color: #7a7f4d">pets</i>
+								</div>
+								
+								<div class="item-inner">
+									<div class="item-title">Preguntas</div>
+								</div>
+							</a>
+						</li>
+						
+						
+					
+					
+					</ul>
+				
+				
+				</div>
+			
+			
+				</div>
+		
+			
+			
+			
+		</section>
+		
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page" id="homecolor" style="border-radius: 40px">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+				  	<div class="title">Explorá</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left">
+							<i class="material-icons">menu</i>
+						</a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  
+				  
+				  <
+							</section>
+				
+	
+				
+			
+
+			
+			
+			<nav class="toolbar tabbar tabbar-labels toolbar-bottom">
+				<div class="toolbar-inner" style="background-color: #7a7f4d">
+					<a href="/home/" class="tab-link tab-link-active">
+						<i class="material-icons" style="color: white; padding-top: 10px">home</i>
+					</a>
+					<a href="/view/" class="tab-link">
+						<i class="material-icons" style="color: white; padding-top: 10px">search</i>
+					</a>
+					<a href="/cards/" class="tab-link">
+						<i class="material-icons" style="color: white; padding-top: 10px">bookmark</i>
+					</a>
+					<a href="/swiper/" class="tab-link">
+						<i class="material-icons" style="color: white; padding-top: 10px">account_circle</i>
+					</a>
+				</div>
+			</nav>
+			
+		
+		
+		
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	<script>
+        function search_animal() {
+            let input = document.getElementById('searchbar').value.toLowerCase();
+            let x = document.getElementsByClassName('animals');
+            for (i = 0; i < x.length; i++) {
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    x[i].style.display = "none";
+                } else {
+                    x[i].style.display = "list-item";
+                }
+            }
+        }
+    </script>
+	
+	
+	
+	
+</body>
+</html>
