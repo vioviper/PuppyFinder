@@ -6,6 +6,7 @@
 <title>Puppy Finder</title>
 <link href="css/framework7.bundle.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -15,6 +16,12 @@
 	<div id="app">
 			
 		<section id="panel-profile" class="panel panel-left panel-cover">
+			
+			<div id="panel-profile" class="block">
+				<img src="img/empty avatar.png" alt="" class="img-fluid">
+				<h4>Hannah Morales</h4>
+			</div>
+			
 			<div class="block">
 				<div class="list media-list">
 					<ul>
@@ -126,13 +133,13 @@
 		
 		<div class="view view-main view-init">
         
-			<section data-name="home" class="page" id="homecolor" style="border-radius: 40px">
+			<section data-name="home" class="page" id="" style="border-radius: 40px">
 
 			  <!-- Top Navbar -->
 			  <nav class="navbar">
 				<div class="navbar-bg"></div>
 				<div class="navbar-inner">
-				  	<div class="title">Perfil</div>
+				  	<div class="title">Preguntas</div>
 					<div class="right">
 						<a href="#" class="link panel-open" data-panel="left">
 							<i class="material-icons">menu</i>
@@ -140,19 +147,206 @@
 					</div>
 				</div>
 			  </nav>
-
-
-			  <section class="page-content">
-				  
-				  
-				  <
-							</section>
 				
-	
-				
-			
+		<section class="page-content">
+	    
+			<section id="" style="margin-top: -19px; border-radius: 20px; background-color: #ECF0F0; color: black;">
+					<div class="block">
+						<div class="row">
+							<article class="col-20" style="padding-top: 40px">
+								<i class="material-icons" style="font-size: 90px; padding-left: 30px; color: ;">account_circle</i>
+							</article>
 
+							<div class="col-60" style="padding-top: 40px">
+								<h2 style="padding-top: 15px; padding-left: 40px; color:;" class="tituloshome">Bienvenida</h2>
+								<p style="padding-left: 40px; color: ;">Hannah Morales</p>
+							</div>
+
+							<div class="col-20" style="padding-top: 40px">
+								<i class="material-icons" style="font-size: 40px; padding-top: 25px; color: black;">add_alert</i>
+							</div>
+						</div>
+					</div>
+
+					<div class="container" style="margin-top: -20px; padding-bottom: 20px;">
+						  <input id="" 
+								 onkeyup="search_animal()" 
+								 type="text" 
+								 name="search" 
+								 placeholder="Search for Puppies.." 
+								 style="color: black; ::placeholder {color: black;}">
+					</div>
+				</section>
 			
+			<section style="background-color: white; padding: 20px; border-radius: 20px;">
+			
+			
+			  <!-- Lista de sugerencias Framework7 -->
+			  <div class="list list-sugerencias no-hairlines-md no-hairlines-between-md">
+				<ul style="list-style: none; padding: 0; margin: 0;">
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Cachorros en adopción cerca de mí
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Consejos para elegir el perro ideal según mi estilo de vida
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Refugios de animales en [tu ciudad]
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Perros medianos tranquilos para departamento
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Requisitos para adoptar un perro en un refugio
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Tips para la primera noche con un perro adoptado
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Veterinarias recomendadas cerca de casa
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Perros adultos en adopción (fáciles de entrenar)
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Cómo preparar mi hogar para recibir a un perro
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Campañas de adopción de perros este mes
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Razas mixtas más comunes en adopciones
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Qué llevar el día de la adopción a un refugio
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Perros en adopción que se lleven bien con niños
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Lugares para donar comida o mantas a refugios
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				  <li>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title" style="white-space: normal;">
+						  <i class="fa fa-search" style="margin-right:8px; color:#7a7f4d;"></i>Diferencia entre adoptar un cachorro y un perro adulto
+						</div>
+					  </div>
+					</div>
+				  </li>
+
+				</ul>
+			  </div>
+
+		</section>
+				
+				
+		</section>		
+		
+				
+			 
+
+				 	
 			
 			<nav class="toolbar tabbar tabbar-labels toolbar-bottom">
 				<div class="toolbar-inner" style="background-color: #7a7f4d">
