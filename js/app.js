@@ -121,7 +121,17 @@ $$(document).on('click', '#btnAddToCart', function (e) {
 	
 });
 
-
+var app = new Framework7({
+	root: '#app',
+	name: 'Puppy Finder',
+	id: 'com.puppy.finder',
+	routes: [],
+  });
+  
+  // Inicializar todos los swipers con soporte nested
+  app.swiper.create('.swiper', {
+	nested: true,
+  });
 
 
 

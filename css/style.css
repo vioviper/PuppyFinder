@@ -1,250 +1,216 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-:root{
-	--f7-theme-color:#7a7f4d;
-	--f7-navbar-bg-color: #7a7f4d; /*navbar*/
-	--f7-navbar-link-color: #FFF; /*navbar link*/
-	--f7-navbar-text-color:#FFF;
-	--f7-bars-bg-color:#fff;/*toolbar*/
-	--f7-tabbar-link-inactive-color: #8F8F8F; /*link toolbar*/
-	--f7-block-margin-vertical:20px;
-	--f7-card-footer-border-color:transparent; 
-	--color-base:#000;
-	--color-gris:#8F8F8F;
-}
-body{
-	font-family: "Roboto", sans-serif;
-	font-size: 14px;
-	color: var(--color-base);
-}
-h1,h2,h3,h4,h5,h6,p{
-	margin: 2px;
-}
-.img-fluid{
-	max-width: 100%;
-}
-.block-title{
-	color: var(--color-base);
-	font-size: 16px;
-	font-weight: 600;
-}
-.color-base{
-	color: var(--color-base);
+
+:root {
+  --f7-theme-color:#7a7f4d;
+  --f7-navbar-bg-color: #7a7f4d;
+  --f7-navbar-link-color: #FFF;
+  --f7-navbar-text-color:#FFF;
+  --f7-bars-bg-color:#fff;
+  --f7-tabbar-link-inactive-color: #8F8F8F;
+  --f7-block-margin-vertical:20px;
+  --f7-card-footer-border-color:transparent;
+  --color-base:#000;
+  --color-gris:#8F8F8F;
 }
 
-#welcome{
-	background-color: var(--f7-theme-color);
-	color: #fff;
-	margin-top: 0;
-	padding: 40px 20px 120px;
-}
-#welcome h1{
-	font-size: 20px;
-	line-height: 1.1;
-}
-#welcome h1 span{
-	font-weight: 300;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#producto{
-	margin-top: -120px;
-}
-#producto ul{
-	padding: 0;
-	padding-left: 15px;
-	font-size: 12px;
-	font-weight: 400;
-}
-#producto img{
-	margin-top: -120px;
-}
-#producto .info{
-	font-size: 12px;
-}
-#producto .precio{
-	font-size: 18px;
-	color: var(--color-base);
-	font-weight: 600;
-}
-#producto .precio span{
-	color: var(--color-gris);
-}
-#producto .precio i{
-	vertical-align: top;
-	color: var(--color-gris);
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--color-base);
 }
 
-.mt-5{
-	margin-top: 25px !important;
+h1,h2,h3,h4,h5,h6,p {
+  margin: 2px;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.block-title {
+  color: var(--color-base);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.color-base {
+  color: var(--color-base);
 }
 
 
-.card-productos{
-	text-align: center;
+#welcome {
+  background-color: var(--f7-theme-color);
+  color: #fff;
+  margin-top: 0;
+  padding: 40px 20px 120px;
 }
-.card-productos img{
-	height: 100px;
+
+#welcome h1 {
+  font-size: 20px;
+  line-height: 1.1;
 }
-.card-productos p{
-	color: var(--color-gris);
-	font-size: 12px;
-	margin-bottom: 10px;
+
+#welcome h1 span {
+  font-weight: 300;
 }
 
 
-#panel-profile img{
-	width: 80px;
-	height: 80px;
-	border-radius: 100px;
-	margin: auto;
-	display: block;
-}
-#panel-profile h4{
-	text-align: center;
-	margin-top: 5px;
-	font-size: 16px;
+#producto {
+  margin-top: -120px;
 }
 
-#menu-list i{
-	color: var(--f7-theme-color);
-}
-#menu-list .item-title{
-	font-size: 14px;
-}
-
-#list-categories{
-	text-align: center;
-}
-#list-categories img{
-	height: 80px;
-	margin: auto;
-	display: block;
+#producto ul {
+  padding: 0 0 0 15px;
+  font-size: 12px;
+  font-weight: 400;
 }
 
-#list-products h4{
-	font-size: 14px;
-}
-#list-products p{
-	font-size: 11px;
-}
-#list-products .precio{
-	font-size: 14px;
-	font-weight: 600;
-	margin-bottom: 20px;
+#producto img {
+  margin-top: -120px;
 }
 
-
-#page-producto #welcome{
-	background-color: #e9e9e9;
+#producto .info {
+  font-size: 12px;
 }
 
-.iconoshome{
-	font-size: 60px;
-	text-align: center;
+#producto .precio {
+  font-size: 18px;
+  color: var(--color-base);
+  font-weight: 600;
 }
 
-{ margin: 0; padding: 0; box-sizing: border-box; }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 20px;
-            color: darkblue;
-        }
-        #searchbar {
-            margin: 10px;
-            padding: 10px;
-            border-radius: 5px;
-            width: 50%;
-            box-sizing: border-box;
-            color: blue;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 1.2em;
-			border: rgba(0,0,0,1.00);
-        }
-        #searchbar::placeholder {
-            color: #333;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 1.2em;
-        }
-        #list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .animals {
-            font-size: 1.2em;
-            padding: 10px;
-            border: 0px solid #df1919;
-            animation: fadeIn 0.5s ease-in-out;
-            color: blue;
-        }
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-.botonimg{
-	border-radius: 30px;
-	border-color: transparent;
-	color: black;
-	background-color: white;
+#producto .precio span {
+  color: var(--color-gris);
 }
 
-.cardborder{
-	border-radius: 30px;
+#producto .precio i {
+  vertical-align: top;
+  color: var(--color-gris);
+}
+
+.mt-5 {
+  margin-top: 25px !important;
+}
+
+.card-productos {
+  text-align: center;
+}
+
+.card-productos img {
+  height: 100px;
+}
+
+.card-productos p {
+  color: var(--color-gris);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.cardborder {
+  border-radius: 30px;
+}
+
+.cardcolor {
+  background-color: #7a7f4d;
 }
 
 
-#homecolor{
-	background-color: #E0E899;
+#panel-profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  margin: auto;
+  display: block;
 }
 
-#homecolor2{
-	background-color: white;
+#panel-profile h4 {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 16px;
 }
 
-.cardcolor{
-	background-color: #7a7f4d;9
+#menu-list i {
+  color: var(--f7-theme-color);
 }
 
-.tituloshome{
-	color: #3b4848;
-	font-size: 25px;
+#menu-list .item-title {
+  font-size: 14px;
 }
 
 
-/* Contenedor de la tarjeta de mascota */
-.card-img-container {
-  position: relative;
-  border-radius: 20px;
-  overflow: hidden;
+#list-categories {
+  text-align: center;
+}
+
+#list-categories img {
+  height: 80px;
+  margin: auto;
+  display: block;
+}
+
+#list-products h4 {
+  font-size: 14px;
+}
+
+#list-products p {
+  font-size: 11px;
+}
+
+#list-products .precio {
+  font-size: 14px;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
-/* Imagen de la mascota */
-.card-img-container img {
-  width: 100%;
-  display: block;
-  border-radius: 20px;
+
+#page-producto #welcome {
+  background-color: #e9e9e9;
 }
 
-/* Botón superpuesto */
+.iconoshome {
+  font-size: 60px;
+  text-align: center;
+}
+
+#homecolor {
+  background-color: #E0E899;
+}
+
+#homecolor2 {
+  background-color: white;
+}
+
+#homecolor3 {
+  background-color: #7a7f4d;
+  color: #e9e9e9;
+}
+
+#homecolor5 {
+  background-color: #ffffff;
+}
+
+.tituloshome {
+  color: #3b4848;
+  font-size: 25px;
+}
+
+
 .botonimg {
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: white;
+  color: black;
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background: white;
-  border: none;
-  border-radius: 25px;
   font-weight: bold;
-  color: #000;
   padding: 6px 25px;
   font-size: 14px;
   display: flex;
@@ -254,14 +220,239 @@ h1,h2,h3,h4,h5,h6,p{
   white-space: nowrap;
 }
 
-/* Ícono dentro del botón */
 .botonimg i {
   color: #c5a900;
   margin-right: 6px;
   font-size: 18px;
 }
 
+.boton-favoritos {
+  background-color: #E0E899;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3b4848;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
 
+.boton-favoritos i {
+  color: #3b4848;
+  font-size: 22px;
+}
+
+/* ===================== SEARCH ===================== */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  color: darkblue;
+}
+
+#searchbar {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  box-sizing: border-box;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  border: rgba(0,0,0,1.00);
+}
+
+#searchbar::placeholder {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.animals {
+  font-size: 1.2em;
+  padding: 10px;
+  border: 1px solid #df1919;
+  animation: fadeIn 0.5s ease-in-out;
+  color: blue;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 100%;
+}
+
+#searchInput {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  text-align: center;
+  background-color: white;
+  color: #333;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+#searchInput:focus {
+  outline: none;
+  border-color: var(--f7-theme-color);
+}
+
+.search-item {
+  list-style: none;
+  padding: 10px;
+  margin: 5px auto;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.swiper-slide .card {
+  text-align: center;
+  padding: 15px;
+}
+
+.swiper-slide .card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.swiper {
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.metricas {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.metric-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  flex: 1;
+  margin: 0 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.metric-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #3b4848;
+}
+
+.metric-card p {
+  font-size: 13px;
+  color: #666;
+}
+
+
+.page-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 80px;
+}
+
+.bienvenida-box {
+  background-color: #7a7f4d;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 0 0 30px 30px;
+}
+
+.bienvenida-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.bell {
+  font-size: 26px;
+  color: white;
+}
+
+.search-box {
+  margin-top: 15px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+}
+
+
+.dog-banner {
+  margin-top: 15px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
 
 
 
