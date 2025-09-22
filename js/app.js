@@ -47,7 +47,7 @@ var app = new Framework7({
     	name: 'detalles',
   		},
 		{
-		path: '/guardados/',
+		path: '/detalles/',
     	url: 'guardados.html',
     	name: 'guardados',
   		},
@@ -55,6 +55,10 @@ var app = new Framework7({
 		path: '/preguntas/',
     	url: 'preguntas.html',
     	name: 'preguntas',
+  		},{
+		path: '/explora/',
+    	url: 'explora.html',
+    	name: 'explora',
   		},
 	],
 	dialog: {
