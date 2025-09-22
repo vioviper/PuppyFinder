@@ -351,3 +351,26 @@ h1,h2,h3,h4,h5,h6,p{
 #homecolor5{
 	background-color: #ffffff;
 }
+.metricas {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 10px;
+  text-align: center;
+}
+.metric-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  flex: 1;
+  margin: 0 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.metric-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #3b4848;
+}
+.metric-card p {
+  font-size: 13px;
+  color: #666;
+}
